@@ -34,5 +34,5 @@ jobs:
       - name: Run built-in self-test
         shell: pwsh
         run: |
-          java -Djava.awt.headless=true -jar build/NexxaRemote.jar --self-test
+          java '-Djava.awt.headless=true' -jar build/NexxaRemote.jar --self-test
           if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
