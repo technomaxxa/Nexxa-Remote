@@ -25,6 +25,18 @@ Nexxa does not operate a public rendezvous or relay service. Each computer joins
 
 The project is released under the MIT License. Nexxa itself has no subscription, session timer, or account system. **Tailscale is a separate third-party service** and its software, account requirements, availability, and plan limits are governed by Tailscale—not by this project.
 
+## Watch the 45-second demo
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=2znw9T87pUg">
+    <img
+      src="https://img.youtube.com/vi/2znw9T87pUg/hqdefault.jpg"
+      alt="Watch Nexxa Remote demo"
+      width="720"
+    >
+  </a>
+</p>
+
 > **Project status: beta / experimental.** Remote desktop software is security-sensitive. The current implementation has not undergone an independent security audit and has only been exercised with local automated tests in the development environment. Test it on trusted devices before relying on it. Do not expose its TCP port directly to the public Internet.
 
 ## Features
