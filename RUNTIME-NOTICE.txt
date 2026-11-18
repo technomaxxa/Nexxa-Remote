@@ -1,0 +1,11 @@
+Nexxa Remote v0.7.5 - Private Java Runtime Bootstrap
+
+The Windows launcher provisions a private Java 25 runtime under .\runtime. It does not change the system PATH or replace another Java installation.
+
+Primary provider: Eclipse Temurin JRE 25.0.5+8, Windows x64.
+The bootstrapper downloads the official archive and verifies its pinned SHA-256 checksum before extraction.
+
+Fallback provider: Oracle JDK 25, Windows x64 ZIP.
+The bootstrapper retrieves Oracle's published SHA-256 checksum over HTTPS and verifies the archive before extraction.
+
+The runtime files are not committed to this Git repository. Users must review the license and notice files supplied by the runtime provider. See THIRD-PARTY-NOTICES.md.

@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: NexxaRemote
+Implementation-Title: Nexxa Remote
+Implementation-Version: 0.7.5

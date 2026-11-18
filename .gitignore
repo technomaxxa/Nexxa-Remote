@@ -1,0 +1,36 @@
+# Private Java runtime provisioned by the launcher
+/runtime/
+
+# Build output
+/build/
+/dist/
+/out/
+*.class
+
+# Host identity and private key material
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.dpapi
+host-identity-password.txt
+
+# Local state, logs, crash reports and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+hs_err_pid*.log
+replay_pid*.log
+
+# IDE / OS files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Generated release archives
+*.zip
+*.7z

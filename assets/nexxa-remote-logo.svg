@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="260" viewBox="0 0 960 260" role="img" aria-labelledby="title desc">
+  <title id="title">Nexxa Remote</title>
+  <desc id="desc">Nexxa Remote logo: a connected desktop display icon and the Nexxa Remote wordmark.</desc>
+  <defs>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1D3557"/>
+      <stop offset="1" stop-color="#101827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#46D6A4"/>
+      <stop offset="1" stop-color="#7C5CFF"/>
+    </linearGradient>
+  </defs>
+  <rect x="10" y="10" width="940" height="240" rx="34" fill="#0F141F"/>
+  <g transform="translate(48 42)">
+    <rect x="0" y="0" width="270" height="154" rx="18" fill="url(#screen)" stroke="#8BB8FF" stroke-width="8"/>
+    <path d="M22 25h226" stroke="#4A607C" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="31" cy="25" r="5" fill="#46D6A4"/>
+    <path d="M72 120 111 80l27 25 48-56 32 32" fill="none" stroke="url(#accent)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M135 154v30M85 190h100" fill="none" stroke="#8BB8FF" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="239" cy="125" r="12" fill="#46D6A4"/>
+    <path d="M250 125h39" stroke="#46D6A4" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="294" cy="125" r="9" fill="#7C5CFF"/>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="390" y="132" font-size="82" font-weight="800" letter-spacing="2" fill="#F4F7FC">NEXXA</text>
+    <text x="397" y="194" font-size="42" font-weight="600" letter-spacing="12" fill="#9DB3D1">REMOTE</text>
+  </g>
+</svg>
