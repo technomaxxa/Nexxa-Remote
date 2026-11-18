@@ -29,11 +29,7 @@ The project is released under the MIT License. Nexxa itself has no subscription,
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=2znw9T87pUg">
-    <img
-      src="https://img.youtube.com/vi/2znw9T87pUg/hqdefault.jpg"
-      alt="Watch Nexxa Remote demo"
-      width="720"
-    >
+    <img src="assets/working.gif" alt="Nexxa Remote" width="520">
   </a>
 </p>
 
